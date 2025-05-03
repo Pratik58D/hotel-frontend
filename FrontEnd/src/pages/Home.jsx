@@ -63,15 +63,15 @@ const Home = () => {
         </div>
       </section>
 
-      {/* another section */}
-      <section className="flex mx-32 my-20 gap-12 ">
+      {/* accommodation section */}
+      <section className="flex ml-30 mr-10 my-20 gap-15 ">
         {/* left side */}
-        <div className="max-w-[530px] flex flex-col gap-5">
-          <div className="flex flex-col gap-2 font-light">
-            <h2 className="text-5xl font-normal">
+        <div className="max-w-[540px] flex flex-col gap-5">
+          <div className="flex flex-col gap-2 font-normal">
+            <h2 className="text-[45px] ">
               Building Accommodation Legacies
             </h2>
-            <p className="font-normal">
+            <p >
               Since our establishment, Pinnacle Hotel Management has emerged as
               a leader in hotel development, steering successful projects across
               major markets such as Washington,D.C., Florida, New England, and
@@ -130,10 +130,13 @@ const Home = () => {
             className="z-10 absolute top-0 right-20"
           />
 
-          <img src={traingle} alt="" className="" />
-          <div className=" bg-white absolute -bottom-4 right-0 z-50 h-[280px] w-[280px] pt-3 pl-3">
+          <img src={traingle} 
+          alt=""
+           className="" />
+
+          <div className=" bg-white absolute bottom-5 right-0 z-50 h-[280px] w-[280px] pt-3 pl-3">
             <div className="flex flex-col items-center justify-center bg-[#A7A59F] h-[269px] w-[269px] text-white">
-              <h2 className="font-bold text-[85px] ">30 +</h2>
+              <p className="font-bold text-[85px]">30+</p>
               <p className="font-normal -mt-5">successful project</p>
             </div>
           </div>
@@ -166,7 +169,7 @@ const Home = () => {
           {/* Service Cards */}
           <div className="  max-w-6xl mx-auto mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
             {/* Card 1 */}
-            <div className="bg-white text-black rounded-xl shadow-md px-6 pt-6 pb-20">
+            <div className="bg-white text-black rounded-xl shadow-lg px-6 pt-6 pb-20">
               <h3 className="text-4xl font-normal mb-3">Hotel Management</h3>
               <p className="text-sm pr-20">
                 We offer extraordinary hotel management services, with the goal
@@ -177,7 +180,7 @@ const Home = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white text-black rounded-xl shadow-md px-6 pt-6 pb-20">
+            <div className="bg-white text-black rounded-xl shadow-lg px-6 pt-6 pb-20">
               <h3 className="text-4xl font-normal mb-3 ">
                 Project Development
               </h3>
@@ -189,7 +192,7 @@ const Home = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white text-black rounded-xl shadow-md px-6 pt-6 pb-20">
+            <div className="bg-white text-black rounded-lg shadow-md px-6 pt-6 pb-20">
               <h3 className="text-4xl font-normal mb-3 pr-3">Lorem Ipsumamit</h3>
               <p className="text-sm pr-20">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
