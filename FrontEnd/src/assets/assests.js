@@ -7,6 +7,10 @@ import rightarrow from "./rightarrow.png";
 import building from "./building.png";
 import star from "./staricon.png";
 import female from "./female.png";
+import contact from "./contact.png";
+import blue_rectangle from "./blue_Rectangle.png";
+import traingle from "./traingle.png";
+
 
 export {
   layer,
@@ -18,4 +22,7 @@ export {
   building,
   star,
   female,
+  contact,
+  blue_rectangle,
+  traingle
 };
